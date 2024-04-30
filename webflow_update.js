@@ -12,10 +12,10 @@ import {
   startAfter,
 } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore.js";
 
-import {
-  distanceBetween,
-  geohashQueryBounds,
-} from "https://github.com/firebase/geofire-js/releases/download/6.0.0/geofire-common.min.js";
+// import {
+//   distanceBetween,
+//   geohashQueryBounds,
+// } from "https://github.com/firebase/geofire-js/releases/download/6.0.0/geofire-common.min.js";
 
 document.addEventListener("DOMContentLoaded", async function () {
   const firebaseConfig = {
